@@ -75,9 +75,9 @@ while (status):
             elif i.key == K_d:
                 SHIFT_HORIZONTAL += SHIFT_STEP
             elif i.key == K_e:
-                ZOOM_LEVEL += 0.1
+                ZOOM_LEVEL += 0.01
             elif i.key == K_q:
-                ZOOM_LEVEL -= 0.1
+                ZOOM_LEVEL -= 0.01
                 
             
             drawMap()
